@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Snapbit</title>
+<meta name="description" content="How the Snapbit Chrome extension handles data: everything is processed locally in your browser, nothing is uploaded, and there are no analytics, ads or accounts.">
+<link rel="canonical" href="https://sakmbd.github.io/snapbit-site/privacy-policy/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta name="theme-color" content="#3b5bdb">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Snapbit">
+<meta property="og:title" content="Snapbit Privacy Policy">
+<meta property="og:description" content="Snapbit processes everything locally in your browser. It does not upload, sell or share your data.">
+<meta property="og:url" content="https://sakmbd.github.io/snapbit-site/privacy-policy/">
+<meta property="og:image" content="https://sakmbd.github.io/snapbit-site/assets/img/01-snapbit-overview.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Snapbit home">
+      <img src="../assets/img/snapbit-mark.svg" alt="" width="32" height="32">
+      <span class="wordmark">Snap<span>bit</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="../#features">Features</a>
+      <a href="../#privacy">Privacy</a>
+      <a href="../#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-primary btn-small" href="https://chromewebstore.google.com/detail/convert-2-case/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Add to Chrome</a>
+  </div>
+</header>
+
+<main id="main" class="policy">
+  <div class="wrap">
+    <article>
+      <h1>Snapbit Privacy Policy</h1>
+      <p class="updated">Last updated: 11 November 2026</p>
+
+      <p>Snapbit is a free Chrome extension that helps you capture and reuse screen and page content: screenshots, an image editor, a screen recorder, a color picker and a text case converter. This policy explains what data Snapbit handles and what happens to it.</p>
+
+      <h2>Summary</h2>
+      <ul>
+        <li>Snapbit processes everything <strong>locally in your browser</strong>.</li>
+        <li>Snapbit <strong>does not upload, sell or share</strong> your data, and sends nothing to any server.</li>
+        <li>Snapbit has <strong>no analytics, tracking, ads or accounts</strong>.</li>
+      </ul>
+
+      <h2>Data Snapbit handles</h2>
+      <p>Snapbit handles data only when you start one of its tools:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th scope="col">Tool</th><th scope="col">What it handles</th><th scope="col">Where it goes</th></tr></thead>
+          <tbody>
+            <tr><td>Screenshots</td><td>An image of the tab you are on (visible area, a selected area, or the full page)</td><td>Shown in the extension; your latest screenshot is stored in the extension's local storage (IndexedDB) on your device</td></tr>
+            <tr><td>Image editor</td><td>Screenshots you edit, and image files you open or paste</td><td>Editor copies are stored locally on your device</td></tr>
+            <tr><td>Screen recorder</td><td>The tab, window or screen you choose in Chrome's share dialog, plus tab or system audio and your microphone if you enable them</td><td>Kept in memory until you download the video; never written to storage by Snapbit</td></tr>
+            <tr><td>Color picker</td><td>The color value of the pixel you click</td><td>Shown in the extension and copied to your clipboard</td></tr>
+            <tr><td>Text case converter</td><td>Text you type or paste, or text you select on a page and send with "Convert case with Snapbit"</td><td>Converted in the extension; passed to the popup through temporary in-memory session storage</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Snapbit cannot read web pages in the background. It has no access to a page until you click its toolbar icon or its right-click menu item on that page, and that access is temporary.</p>
+
+      <h2>Storage and deletion</h2>
+      <ul>
+        <li><strong>Latest screenshot</strong>: kept until you delete it, take a new screenshot, or open the Capture tool after it has expired (30 minutes, or after the browser or extension restarts).</li>
+        <li><strong>Editor copies</strong>: expire after 24 hours and are deleted the next time you open an image in the editor; <strong>Clear Image</strong> deletes one immediately.</li>
+        <li><strong>Recordings</strong>: stay in memory only; closing the preview tab without downloading discards the video.</li>
+        <li><strong>Settings</strong>: the recorder remembers your last audio choices (two on/off settings).</li>
+        <li><strong>Session data</strong> (screenshot progress, recorder status, selected text being passed to the popup) lives in Chrome's in-memory session storage and is cleared when the browser closes.</li>
+        <li>Removing the extension removes the data Chrome stores for it.</li>
+      </ul>
+      <p>Files you download (PNG, JPEG, WebM) and content you copy are saved by your browser and operating system, not by Snapbit.</p>
+
+      <h2>Permissions</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th scope="col">Permission</th><th scope="col">Why</th></tr></thead>
+          <tbody>
+            <tr><td>activeTab</td><td>Temporary access to the tab you use Snapbit on, after you click its icon or menu item</td></tr>
+            <tr><td>scripting</td><td>Runs Snapbit's own code in that tab for area selection, full-page capture, the recording countdown and reading selected text</td></tr>
+            <tr><td>contextMenus</td><td>The "Convert case with Snapbit" right-click item</td></tr>
+            <tr><td>storage</td><td>Temporary session state and your recorder audio choices</td></tr>
+            <tr><td>offscreen</td><td>Lets screen recording continue after the popup closes</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Sharing and third parties</h2>
+      <p>Snapbit does not transmit any data off your device, does not sell or share data with third parties, and does not use data for advertising, creditworthiness or any purpose unrelated to its features.</p>
+
+      <h2>Limited Use</h2>
+      <p>The use of information received from Chrome APIs by Snapbit adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+
+      <h2>Changes</h2>
+      <p>If Snapbit's data handling changes, this policy will be updated and the date above changed.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy: use the developer contact shown on Snapbit's Chrome Web Store listing.</p>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p style="margin:0">© Snapbit · Made by Shakeel Ahamed</p>
+    <ul class="footer-links">
+      <li><a href="./" aria-current="page">Privacy Policy</a></li>
+      <li><a href="https://chromewebstore.google.com/detail/convert-2-case/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Chrome Web Store</a></li>
+      <li><a href="https://github.com/sakmbd" rel="noopener me">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/sakmbd/" rel="noopener me">LinkedIn</a></li>
+      <li><a href="https://shakeeldev.com/" rel="noopener me">shakeeldev.com</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

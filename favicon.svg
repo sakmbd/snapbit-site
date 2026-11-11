@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Snapbit">
+  <!-- Snapbit "Snap Grid" mark: four bits of a 2x2 grid; three are white tiles, the
+       fourth snaps into place as an amber spark (small tools, quick actions). -->
+  <defs>
+    <linearGradient id="snapbit-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B7CFF"/>
+      <stop offset="1" stop-color="#3A3FCC"/>
+    </linearGradient>
+    <linearGradient id="snapbit-spark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFCB57"/>
+      <stop offset="1" stop-color="#FF9A1F"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#snapbit-tile)"/>
+  <rect x="1" y="1" width="126" height="126" rx="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2"/>
+  <rect x="26" y="26" width="32" height="32" rx="9" fill="#FFFFFF"/>
+  <rect x="70" y="26" width="32" height="32" rx="9" fill="#FFFFFF" fill-opacity="0.9"/>
+  <rect x="26" y="70" width="32" height="32" rx="9" fill="#FFFFFF" fill-opacity="0.9"/>
+  <rect x="72" y="72" width="28" height="28" rx="7" fill="url(#snapbit-spark)" transform="rotate(45 86 86)"/>
+</svg>

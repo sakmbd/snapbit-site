@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Snapbit – Screenshot, Screen Recorder &amp; Color Picker for Chrome</title>
-<meta name="description" content="Snapbit is a free Chrome extension to take full-page screenshots, annotate and blur images, record your screen, pick colors and convert text case. No ads, no account.">
+<title>Snapbit – Screenshot &amp; Productivity Toolkit | Free Chrome Extension</title>
+<meta name="description" content="Snapbit – Screenshot &amp; Productivity Toolkit is a free Chrome extension for full-page screenshots, a screenshot editor, screen recording, a color picker and text case conversion.">
 <link rel="canonical" href="https://sakmbd.github.io/snapbit-site/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
@@ -12,30 +12,64 @@
 <meta name="theme-color" content="#3b5bdb">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Snapbit">
-<meta property="og:title" content="Snapbit – Small tools. Big productivity.">
-<meta property="og:description" content="Screenshots, an image editor, a screen recorder, a color picker and a text case converter in one free Chrome extension.">
+<meta property="og:title" content="Snapbit – Screenshot &amp; Productivity Toolkit">
+<meta property="og:description" content="Small tools. Big productivity. Screenshots, a screenshot editor, a screen recorder, a color picker and a text case converter in one free Chrome extension.">
+<meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://sakmbd.github.io/snapbit-site/">
 <meta property="og:image" content="https://sakmbd.github.io/snapbit-site/assets/img/01-snapbit-overview.png">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="800">
 <meta property="og:image:alt" content="Snapbit popup showing the Capture, Color and Text tools">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Snapbit – Screenshot &amp; Productivity Toolkit">
+<meta name="twitter:description" content="Small tools. Big productivity. Screenshots, a screenshot editor, a screen recorder, a color picker and a text case converter in one free Chrome extension.">
+<meta name="twitter:image" content="https://sakmbd.github.io/snapbit-site/assets/img/01-snapbit-overview.png">
+<meta name="twitter:image:alt" content="Snapbit popup showing the Capture, Color and Text tools">
+<meta name="application-name" content="Snapbit">
 <link rel="preload" href="assets/fonts/roboto-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Snapbit",
-  "description": "A free Chrome extension that helps you capture and reuse screen and page content: screenshots, an image editor, a screen recorder, a color picker and a text case converter.",
-  "applicationCategory": "BrowserApplication",
-  "operatingSystem": "Chrome",
-  "softwareVersion": "1.2.0",
-  "url": "https://sakmbd.github.io/snapbit-site/",
-  "downloadUrl": "https://chromewebstore.google.com/detail/convert-2-case/jkehbmbghegdemomfhkcbdddpibnjppe",
-  "image": "https://sakmbd.github.io/snapbit-site/assets/img/01-snapbit-overview.png",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "author": { "@type": "Person", "name": "Shakeel Ahamed", "url": "https://shakeeldev.com/", "sameAs": ["https://github.com/sakmbd", "https://www.linkedin.com/in/sakmbd/"] }
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://sakmbd.github.io/snapbit-site/#website",
+      "name": "Snapbit – Screenshot & Productivity Toolkit",
+      "alternateName": "Snapbit",
+      "url": "https://sakmbd.github.io/snapbit-site/",
+      "inLanguage": "en",
+      "description": "Official website of Snapbit – Screenshot & Productivity Toolkit, a free Chrome extension.",
+      "publisher": { "@id": "https://sakmbd.github.io/snapbit-site/#author" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://sakmbd.github.io/snapbit-site/#app",
+      "name": "Snapbit – Screenshot & Productivity Toolkit",
+      "alternateName": ["Snapbit", "Snapbit Chrome Extension"],
+      "description": "A free Chrome extension that helps you capture, edit and reuse screen and page content: visible-area, selected-area and full-page screenshots, a screenshot editor with annotation, highlight and blur tools, a screen recorder, a color picker and a text case converter.",
+      "applicationCategory": "ProductivityApplication",
+      "applicationSubCategory": "Browser extension",
+      "operatingSystem": "Chrome",
+      "browserRequirements": "Requires Google Chrome",
+      "softwareVersion": "1.2.1",
+      "url": "https://chromewebstore.google.com/detail/jkehbmbghegdemomfhkcbdddpibnjppe",
+      "installUrl": "https://chromewebstore.google.com/detail/jkehbmbghegdemomfhkcbdddpibnjppe",
+      "image": "https://sakmbd.github.io/snapbit-site/assets/img/01-snapbit-overview.png",
+      "screenshot": "https://sakmbd.github.io/snapbit-site/assets/img/03-image-editor.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "isAccessibleForFree": true,
+      "mainEntityOfPage": { "@id": "https://sakmbd.github.io/snapbit-site/#website" },
+      "author": { "@id": "https://sakmbd.github.io/snapbit-site/#author" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://sakmbd.github.io/snapbit-site/#author",
+      "name": "Shakeel Ahamed",
+      "url": "https://shakeeldev.com/",
+      "sameAs": ["https://github.com/sakmbd", "https://www.linkedin.com/in/sakmbd/"]
+    }
+  ]
 }
 </script>
 </head>
@@ -53,7 +87,7 @@
       <a href="#privacy">Privacy</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="btn btn-primary btn-small" href="https://chromewebstore.google.com/detail/convert-2-case/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Add to Chrome</a>
+    <a class="btn btn-primary btn-small" href="https://chromewebstore.google.com/detail/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener" aria-label="Add Snapbit to Chrome from the Chrome Web Store">Add to Chrome</a>
   </div>
 </header>
 
@@ -61,16 +95,16 @@
   <section class="hero" aria-labelledby="hero-title">
     <div class="wrap hero-grid">
       <div>
-      <p class="eyebrow"><span class="spark" aria-hidden="true"></span>Productivity Toolkit for Chrome</p>
-      <h1 id="hero-title">Small tools.<br><em>Big productivity.</em></h1>
-      <p class="lead">Snapbit helps you capture and reuse screen and page content. Take screenshots, annotate and blur images, record your screen, pick colors and convert text case, all from one Chrome extension.</p>
+      <p class="eyebrow"><span class="spark" aria-hidden="true"></span>Free Chrome Extension</p>
+      <h1 id="hero-title"><span class="h1-brand">Snapbit – Screenshot &amp; Productivity Toolkit</span>Small tools.<br><em>Big productivity.</em></h1>
+      <p class="lead">Snapbit is a free productivity extension for Chrome that helps you capture, edit and reuse screen and page content. Take full-page screenshots, annotate and blur them in the screenshot editor, record your screen, pick colors and convert text case, all from one toolbar icon instead of five separate extensions.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/convert-2-case/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Add to Chrome – it's free</a>
+        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Add to Chrome – it's free</a>
         <a class="btn btn-ghost" href="#features">See the tools</a>
       </div>
       <p class="note">Free. No ads. No premium plans. No account.</p>
       <ul class="chips" aria-label="Included tools">
-        <li>Screenshot Capture</li><li>Image Editor</li><li>Screen Recorder</li><li>Color Picker</li><li>Text Case Converter</li>
+        <li>Screenshot Capture</li><li>Screenshot Editor</li><li>Screen Recorder</li><li>Color Picker</li><li>Text Case Converter</li>
       </ul>
       </div>
       <div class="hero-shot">
@@ -84,7 +118,7 @@
       <div class="section-head">
         <p class="eyebrow"><span class="spark" aria-hidden="true"></span>Five tools, one icon</p>
         <h2 id="features-title">Everything for the <em>small jobs</em> you do every day.</h2>
-        <p>Click the Snapbit icon in your toolbar and choose Capture, Color or Text. Everything runs in your browser.</p>
+        <p>Snapbit puts a screenshot tool, a screenshot editor, a screen recorder, a color picker and a text converter behind one Chrome toolbar icon. Click it and choose Capture, Color or Text. Everything runs in your browser.</p>
       </div>
 
       <article class="feature" id="screenshot-capture">
@@ -94,7 +128,7 @@
           <ul>
             <li><span><strong>Visible Area</strong> – what you see in the tab, at your screen's real resolution.</span></li>
             <li><span><strong>Selected Area</strong> – drag a rectangle on the page; the size is shown as you drag.</span></li>
-            <li><span><strong>Full Page</strong> – the page is scrolled and stitched into one image, with sticky headers shown once.</span></li>
+            <li><span><strong>Full Page</strong> – the page is scrolled and stitched into one image, with sticky headers shown once, including pages that scroll inside an inner panel.</span></li>
             <li><span>Download as PNG or JPEG, copy to the clipboard, or open it in the Image Editor.</span></li>
           </ul>
         </div>
@@ -103,11 +137,12 @@
 
       <article class="feature flip" id="image-editor">
         <div class="copy">
-          <h3>Image Editor</h3>
-          <p>Explain what matters and hide what is private before you share.</p>
+          <h3>Image Editor (Screenshot Editor)</h3>
+          <p>Annotate screenshots, explain what matters and hide what is private before you share.</p>
           <ul>
             <li><span>Crop, rotate, flip and resize.</span></li>
-            <li><span>Draw freehand, add shapes, arrows and text labels.</span></li>
+            <li><span>Draw freehand, add shapes and arrows, and styled text with fonts, backgrounds, outlines and shadows.</span></li>
+            <li><span>Callouts, numbered step markers, stickers, borders, watermarks and inserted images.</span></li>
             <li><span>Highlighter in five shades or a custom color.</span></li>
             <li><span>Blur or pixelate private details; the effect is baked into the exported pixels.</span></li>
             <li><span>Undo and redo, zoom and pan, keyboard shortcuts.</span></li>
@@ -183,9 +218,11 @@
         <h2 id="faq-title">Questions and answers</h2>
       </div>
       <div class="faq">
-        <details><summary>What is Snapbit?</summary><p>Snapbit is a free Chrome extension that helps you capture and reuse screen and page content. It combines Screenshot Capture, an Image Editor, a Screen Recorder, a Color Picker and a Text Case Converter in one toolbar icon.</p></details>
+        <details><summary>What is Snapbit?</summary><p>Snapbit – Screenshot &amp; Productivity Toolkit is a free Chrome extension that helps you capture and reuse screen and page content. It combines Screenshot Capture, an Image Editor, a Screen Recorder, a Color Picker and a Text Case Converter in one toolbar icon.</p></details>
+        <details><summary>Where can I install Snapbit?</summary><p>Snapbit is available for Google Chrome from the <a href="https://chromewebstore.google.com/detail/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Snapbit page on the Chrome Web Store</a>.</p></details>
         <details><summary>Is Snapbit free?</summary><p>Yes. Snapbit is free, with no premium plan, no locked features, no watermarks, no ads and no account.</p></details>
-        <details><summary>Can Snapbit capture a full web page?</summary><p>Yes. Full Page mode scrolls the page and stitches it into one image. Captures stop at 30,000 pixels in height, and pages that scroll inside an inner panel cannot be stitched.</p></details>
+        <details><summary>Can Snapbit capture a full web page?</summary><p>Yes. Full Page mode scrolls the page and stitches it into one image. It also works on pages that scroll inside an inner panel. Captures stop at 30,000 pixels in height.</p></details>
+        <details><summary>Which annotation tools does the screenshot editor have?</summary><p>Crop, rotate, flip and resize; freehand drawing, shapes and arrows; a highlighter; styled text; callouts; numbered step markers; stickers; a border; a watermark; inserted images; and blur or pixelate.</p></details>
         <details><summary>Can I blur or pixelate sensitive information?</summary><p>Yes. The Image Editor's Blur &amp; Pixelate tool hides passwords, emails and other details, and the effect is applied to the exported pixels.</p></details>
         <details><summary>Which image formats can the editor open?</summary><p>PNG, JPEG, WebP and GIF (a GIF opens as its first frame), up to 100 MB and 60 megapixels. You can also paste an image with Ctrl+V.</p></details>
         <details><summary>Can I record a tab, a window or the whole screen?</summary><p>Yes. Chrome's share dialog lets you choose a tab, a window or the entire screen. Tab audio is available for tabs, system audio for an entire screen on Windows and ChromeOS, and the microphone is optional.</p></details>
@@ -202,9 +239,10 @@
   <section class="final-cta" aria-labelledby="cta-title">
     <div class="wrap">
       <h2 id="cta-title">Get Snapbit for <em>Chrome</em></h2>
+      <p class="lead" style="margin-left:auto;margin-right:auto">Snapbit – Screenshot &amp; Productivity Toolkit: small tools, big productivity.</p>
       <p class="lead" style="margin-left:auto;margin-right:auto">Five small tools behind one icon. Free, with no ads and no account.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/convert-2-case/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Add to Chrome</a>
+        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Add Snapbit to Chrome</a>
       </div>
     </div>
   </section>
@@ -212,10 +250,10 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p style="margin:0">© Snapbit · Made by Shakeel Ahamed</p>
+    <p style="margin:0">© Snapbit – Screenshot &amp; Productivity Toolkit · Made by Shakeel Ahamed</p>
     <ul class="footer-links">
       <li><a href="privacy-policy/">Privacy Policy</a></li>
-      <li><a href="https://chromewebstore.google.com/detail/convert-2-case/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Chrome Web Store</a></li>
+      <li><a href="https://chromewebstore.google.com/detail/jkehbmbghegdemomfhkcbdddpibnjppe" rel="noopener">Chrome Web Store</a></li>
       <li><a href="https://github.com/sakmbd" rel="noopener me">GitHub</a></li>
       <li><a href="https://www.linkedin.com/in/sakmbd/" rel="noopener me">LinkedIn</a></li>
       <li><a href="https://shakeeldev.com/" rel="noopener me">shakeeldev.com</a></li>
